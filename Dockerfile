@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu/ubuntu:groovy
 
 USER root
 RUN apt-get update && apt-get upgrade -y
