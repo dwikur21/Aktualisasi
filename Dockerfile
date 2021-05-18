@@ -1,2 +1,4 @@
-FROM alpine:3.13
-RUN apk update
+FROM ubuntu/ubuntu:xenial
+
+USER root
+RUN apt-get update && upgrade
